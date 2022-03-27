@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bienvenido
   - IngresaNombre
+  - Pelo1
+  - Pelo2
   layers:
   - Default
   - TransparentFX
