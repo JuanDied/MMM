@@ -10,9 +10,7 @@ public class Prueba : MonoBehaviour
     public bool state = false;
 
    private void Start() {
-       IngresaNombre = GameObject.FindGameObjectWithTag("IngresaNombre");
-       Bienvenido = GameObject.FindGameObjectWithTag("Bienvenido");
-
+       
        IngresaNombre.SetActive(false);
        Bienvenido.SetActive(true);
    }
