@@ -7,7 +7,7 @@ public class SceneGameResume : MonoBehaviour
   public void ChangeScene()
     {
         
-            SceneManager.LoadScene("GameResume");
+            SceneManager.LoadScene("Problema1");
             
         }
 }
