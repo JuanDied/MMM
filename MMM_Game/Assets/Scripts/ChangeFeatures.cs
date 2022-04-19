@@ -28,7 +28,7 @@ public class ChangeFeatures : MonoBehaviour
        }
        else{
             Kid.SetActive(false);
-            Girl1.SetActive(false);
+            Girl1.SetActive(true);
           Girl2.SetActive(true);
 
        }
