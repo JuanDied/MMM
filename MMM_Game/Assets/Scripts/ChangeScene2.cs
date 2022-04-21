@@ -14,19 +14,8 @@ public class ChangeScene2 : MonoBehaviour
     {
         if(index == 0){
        
-        
-        bool alert = EditorUtility.DisplayDialog("Place Selection On Surface?",
-                "Are you sure you want to place ", "Place", "Do Not Place");
-
-        if(alert){
-            SceneManager.LoadScene("Selection_scene");
-             index++;
-        }
-        
-
-
-
-       
+        SceneManager.LoadScene("Selection_scene");
+        index++;
         }
         else if(index == 1){
         SceneManager.LoadScene("Personalization");

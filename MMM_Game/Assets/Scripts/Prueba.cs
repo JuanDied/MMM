@@ -40,7 +40,7 @@ public class Prueba : MonoBehaviour
        }
        else if(index == 1){
            nombre = inputField.text;
-        if(nombre.Length < 3){
+        if(nombre.Length < 3  || nombre.Length > 20){
             bool alert = EditorUtility.DisplayDialog("Escribe tu nombre completo",
                 "Tu nombre debe tener más de 3 letras", "Vale!");
         }
