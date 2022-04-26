@@ -381,6 +381,7 @@ MonoBehaviour:
   Seguridad: {fileID: 863211983}
   state: 0
   index: 0
+  nombre: 
   inputField: {fileID: 329287787}
 --- !u!4 &358731958
 Transform:
@@ -1025,7 +1026,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Empezar
 --- !u!222 &1052813494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1829,7 +1830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

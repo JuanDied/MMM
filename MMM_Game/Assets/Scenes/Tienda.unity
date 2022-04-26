@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -141, y: -221}
+  m_AnchoredPosition: {x: -154, y: -248}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207115115
@@ -624,6 +624,14 @@ MonoBehaviour:
   dialogo2: {fileID: 262237822}
   dialogoSuper1: {fileID: 1984955329}
   dialogoSuper2: {fileID: 480324143}
+  dialogoDepor1: {fileID: 0}
+  dialogoDepor2: {fileID: 0}
+  dialogoDepor3: {fileID: 0}
+  respuesta: {fileID: 0}
+  dialogoMadre1: {fileID: 0}
+  dialogoMadre2: {fileID: 0}
+  dialogoMadre3: {fileID: 0}
+  respuestaMadre: {fileID: 0}
 --- !u!4 &1484437459
 Transform:
   m_ObjectHideFlags: 0
