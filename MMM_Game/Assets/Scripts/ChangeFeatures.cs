@@ -18,7 +18,7 @@ public class ChangeFeatures : MonoBehaviour
        Girl1.SetActive(false);
        Girl2.SetActive(true);
        Debug.Log("Clickeeeeedd!2222 :  "+Player);
-       if (Player == "Player A"){
+       if (Player == "jugador A"){
 
           //Se pone el man
           Debug.Log("Se despliega el man");
@@ -28,7 +28,7 @@ public class ChangeFeatures : MonoBehaviour
        }
        else{
             Kid.SetActive(false);
-            Girl1.SetActive(true);
+            Girl1.SetActive(false);
           Girl2.SetActive(true);
 
        }
@@ -38,7 +38,7 @@ public class ChangeFeatures : MonoBehaviour
     public void Feature()
     {
        
-       if(Player == "Player B"){
+       if(Player == "Jugador B"){
                if (state == false ){ 
             Girl1.SetActive(true);
             Girl2.SetActive(false);
