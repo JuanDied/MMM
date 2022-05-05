@@ -38,9 +38,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tienda.unity
     guid: 7a2ccff66a7d5064e8fa632246ea2593
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/PuntajeScenes/ScoreSystem.unity
+    guid: 10c9324e569498548bb11ba09756eb56
+  - enabled: 1
+    path: Assets/Scenes/PuntajeScenes/Score2.unity
+    guid: 7e565b9fa6dbd464dba93b8e7009b8b2
   - enabled: 1
     path: Assets/Scenes/Biblioteca.unity
     guid: c36356527cbf29a409de6a1579623e43
