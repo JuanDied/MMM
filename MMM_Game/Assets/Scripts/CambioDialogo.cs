@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class CambioDialogo : MonoBehaviour
 {
+    public Text respuestaField;
    public GameObject dialogo1;
    public GameObject dialogo2;
 
@@ -90,7 +92,15 @@ public class CambioDialogo : MonoBehaviour
         dialogoDepor2.SetActive(false);
         dialogoDepor3.SetActive(true);
         respuesta.SetActive(true);
+        if(int.Parse(respuestaField.text) == 900 )
+        {
+            Debug.Log("Respuesta Correcta");
 
+        }
+        else{
+            Debug.Log("Respuesta Incorrecta");
+
+        }
         super++;
         }
         else{
