@@ -1,0 +1,60 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UltimoProblema : MonoBehaviour
+{
+    public Text Unacifra1;
+    public Text Unacifra2;
+    public Text Unacifra3;
+    public Text Unacifra4;
+    public Text Doscifras1;
+    public Text Trescifras1;
+    private int num1;
+    private int num2;
+    private int num3;
+    private int num4;
+    private int num5;
+    private int num6;
+    public Text respuestaField;
+    
+    private int rCorrecta;
+    // Start is called before the first frame update
+    void Start()
+    {
+        num1 = Random.Range(1,9);
+        num2 = Random.Range(10,99);
+        num3 = Random.Range(100,500);
+        num4 = Random.Range(1,9);
+        num5 = Random.Range(1,9);
+        num6 = Random.Range(1,9);
+        Unacifra1.text = num1.ToString();
+        Unacifra2.text = num4.ToString();
+        Unacifra3.text = num5.ToString();
+        Unacifra4.text = num6.ToString();
+        Doscifras1.text = num2.ToString();
+        Trescifras1.text = num3.ToString();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void Respuesta()
+    {
+        rCorrecta = num1*num2+num3*num4+num5*num6;
+        if(int.Parse(respuestaField.text) == rCorrecta){
+            Debug.Log("noiseee");
+
+        }else{
+
+            Debug.Log("malooo");
+        }
+        
+    }
+
+   
+}
