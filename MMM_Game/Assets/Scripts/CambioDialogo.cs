@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class CambioDialogo : MonoBehaviour
 {
+
+    public Button boton;
+    public ScoreBtn algo;
     public Text respuestaField;
    public GameObject dialogo1;
    public GameObject dialogo2;
@@ -32,6 +35,7 @@ public class CambioDialogo : MonoBehaviour
     private int madre = 1;
     void Start()
     {
+       
         dialogo2.SetActive(false);
         dialogoSuper1.SetActive(false);
         dialogoSuper2.SetActive(false);
@@ -45,6 +49,7 @@ public class CambioDialogo : MonoBehaviour
         dialogoMadre2.SetActive(false);
         dialogoMadre3.SetActive(false);
         respuestaMadre.SetActive(false);
+       
         
     }
 
@@ -62,16 +67,23 @@ public class CambioDialogo : MonoBehaviour
         SceneManager.LoadScene("Mapa");
         }
     }
+     void Update()
+    {
+        
+       
+    }
 
      public void cambioSupermercado()
     {  
         if(super==1){
         dialogoSuper1.SetActive(true);
         super++;
+        boton.interactable = false;
         }
         else if(super==2){
         dialogoSuper2.SetActive(true);
         super++;
+        boton.interactable = true;
         }
         else{
             supermercado=true;
@@ -82,25 +94,19 @@ public class CambioDialogo : MonoBehaviour
 
     public void cambioDeporte()
     {  
+        
         if(super==1){
         dialogoDepor1.SetActive(false);
         dialogoDepor2.SetActive(true);
         respuesta.SetActive(true);
+        
         super++;
         }
         else if(super==2){
         dialogoDepor2.SetActive(false);
         dialogoDepor3.SetActive(true);
         respuesta.SetActive(true);
-        if(int.Parse(respuestaField.text) == 900 )
-        {
-            Debug.Log("Respuesta Correcta");
-
-        }
-        else{
-            Debug.Log("Respuesta Incorrecta");
-
-        }
+        algo.Problema2(respuestaField.text);
         super++;
         }
         else{
