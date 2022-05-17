@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: 5154e4c17647e334e88ee3dee9026d57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8494628378408830643
+    second: Personaje mujer saltando y sonriendo-101_0
+  - first:
+      213: -7927763122398359949
+    second: Personaje mujer saltando y sonriendo-101_1
+  - first:
+      213: 7434691896835231223
+    second: Personaje mujer saltando y sonriendo-101_2
+  - first:
+      213: -2071604575114911219
+    second: Personaje mujer saltando y sonriendo-101_3
+  - first:
+      213: 911866352491917899
+    second: Personaje mujer saltando y sonriendo-101_4
+  - first:
+      213: -6670023187207622785
+    second: Personaje mujer saltando y sonriendo-101_5
+  - first:
+      213: -9172985507250310058
+    second: Personaje mujer saltando y sonriendo-101_6
+  - first:
+      213: -4116491427171362132
+    second: Personaje mujer saltando y sonriendo-101_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 337
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.55473995, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6c202f08bf2e570800000000000000
+      internalID: 8494628378408830643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 504
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.38409376, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e010a717deaf190800000000000000
+      internalID: -7927763122398359949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_2
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 418
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.44115657, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdc655b3e45d2760800000000000000
+      internalID: 7434691896835231223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_3
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 0
+        width: 380
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.44336292, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a3316d9e2043e0800000000000000
+      internalID: -2071604575114911219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_4
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 0
+        width: 462
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.5199646, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4279e6cd9997ac00800000000000000
+      internalID: 911866352491917899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_5
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 0
+        width: 431
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.5285339, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7feed220415f63a0800000000000000
+      internalID: -6670023187207622785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_6
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 0
+        width: 500
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.37086818, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654f98e184203b080800000000000000
+      internalID: -9172985507250310058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje mujer saltando y sonriendo-101_7
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 0
+        width: 500
+        height: 1324
+      alignment: 9
+      pivot: {x: 0.36471924, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa928a6bd84fd6c0800000000000000
+      internalID: -4116491427171362132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

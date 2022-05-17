@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: anim_kid
+  m_Name: girl_anim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,21 +20,23 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -8038206457317914046, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: 8494628378408830643, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.11111111
-      value: {fileID: 9068774153974592470, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: -7927763122398359949, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.22222222
-      value: {fileID: -6157532230428807014, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: 7434691896835231223, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.33333334
-      value: {fileID: -8042754294688219555, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: -2071604575114911219, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.44444445
-      value: {fileID: 7849818695472659192, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: 911866352491917899, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.5555556
-      value: {fileID: 6985492283103586732, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: -6670023187207622785, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.6666667
-      value: {fileID: -5893143666295477927, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: -9172985507250310058, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     - time: 0.7777778
-      value: {fileID: -4879254591531810343, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+      value: {fileID: -4116491427171362132, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - time: 1
+      value: {fileID: -4116491427171362132, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -54,20 +56,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -8038206457317914046, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: 9068774153974592470, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: -6157532230428807014, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: -8042754294688219555, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: 7849818695472659192, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: 6985492283103586732, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: -5893143666295477927, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
-    - {fileID: -4879254591531810343, guid: 36b5dc815bbf6f542becee85c9bff2ac, type: 3}
+    - {fileID: 8494628378408830643, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -7927763122398359949, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: 7434691896835231223, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -2071604575114911219, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: 911866352491917899, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -6670023187207622785, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -9172985507250310058, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -4116491427171362132, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
+    - {fileID: -4116491427171362132, guid: 5154e4c17647e334e88ee3dee9026d57, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8888889
+    m_StopTime: 1.1111112
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -87,7 +90,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.7777778
+  - time: 1
     functionName: Next_scene
     data: 
     objectReferenceParameter: {fileID: 0}
