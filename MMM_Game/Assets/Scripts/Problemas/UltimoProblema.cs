@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class UltimoProblema : MonoBehaviour
 {
+    public ScoreBtn puntos;
     public Text Unacifra1;
     public Text Unacifra2;
     public Text Unacifra3;
@@ -17,12 +18,14 @@ public class UltimoProblema : MonoBehaviour
     private int num4;
     private int num5;
     private int num6;
+    private bool salta;
     public Text respuestaField;
     
     private int rCorrecta;
     // Start is called before the first frame update
     void Start()
     {
+        salta = true;
         num1 = Random.Range(1,9);
         num2 = Random.Range(10,99);
         num3 = Random.Range(100,500);
@@ -45,15 +48,23 @@ public class UltimoProblema : MonoBehaviour
 
     public void Respuesta()
     {
-        rCorrecta = num1*num2+num3*num4+num5*num6;
-        if(int.Parse(respuestaField.text) == rCorrecta){
-            Debug.Log("noiseee");
-
-        }else{
-
-            Debug.Log("malooo");
-        }
         
+        
+        rCorrecta = num1*num2+num3*num4+num5*num6;
+        if(salta == true){
+            if(int.Parse(respuestaField.text) == rCorrecta){
+                Debug.Log("noiseee");
+                puntos.AumentarPuntaje();
+                salta = false;
+                
+             }else{
+
+                Debug.Log("malooo");
+                puntos.DisminuirPuntaje();
+            }
+        
+    }
+
     }
 
    

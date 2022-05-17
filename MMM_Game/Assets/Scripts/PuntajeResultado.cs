@@ -11,6 +11,7 @@ public class PuntajeResultado : MonoBehaviour
     void Start()
     {
          textPuntuacion.text = puntuacion.ToString();
+         Debug.Log(puntuacion);
     }
 
     // Update is called once per frame

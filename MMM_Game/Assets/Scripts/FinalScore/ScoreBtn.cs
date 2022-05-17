@@ -35,5 +35,32 @@ public class ScoreBtn : MonoBehaviour
        
         
     }
+
+    public void Problema2(string Respuesta){
+
+        if(int.Parse(Respuesta) == 900 )
+        {
+            Debug.Log("Respuesta Correcta");
+            puntuacion = puntuacion + 100;
+            textPuntuacion.text = puntuacion.ToString();
+            
+
+        }
+        else{
+           
+            if(puntuacion==0){
     
+            Debug.Log("Respuesta Incorrecta");
+            }
+            else{
+            Debug.Log("Respuesta Incorrecta");
+            puntuacion = puntuacion - 50;
+            textPuntuacion.text = puntuacion.ToString();
+
+            }
+           
+        }
+    }
+    
+
 }
