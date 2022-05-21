@@ -7,6 +7,12 @@ public class CambioDialogo : MonoBehaviour
 {
 
     public Button boton;
+
+    public Button botonIncorrecta1;
+    public Button botonIncorrecta2;
+    public Button botonIncorrecta3;
+    public Button botonCorrecta;
+   
     public ScoreBtn algo;
     public Text respuestaField;
    public GameObject dialogo1;
@@ -33,6 +39,8 @@ public class CambioDialogo : MonoBehaviour
     private bool dial = false;
     private int super = 1;
     private int madre = 1;
+
+    public Cifras answ;
     void Start()
     {
        
@@ -84,6 +92,10 @@ public class CambioDialogo : MonoBehaviour
         dialogoSuper2.SetActive(true);
         super++;
         boton.interactable = true;
+        botonCorrecta.interactable = false;
+        botonIncorrecta1.interactable = false;
+        botonIncorrecta2.interactable = false;
+        botonIncorrecta3.interactable = false;
         }
         else{
             supermercado=true;
@@ -94,7 +106,7 @@ public class CambioDialogo : MonoBehaviour
 
     public void cambioDeporte()
     {  
-        
+        bool cor = false;
         if(super==1){
         dialogoDepor1.SetActive(false);
         dialogoDepor2.SetActive(true);
@@ -103,11 +115,15 @@ public class CambioDialogo : MonoBehaviour
         super++;
         }
         else if(super==2){
+           cor = algo.Problema2(respuestaField.text);
+            if(cor){
         dialogoDepor2.SetActive(false);
         dialogoDepor3.SetActive(true);
         respuesta.SetActive(true);
-        algo.Problema2(respuestaField.text);
         super++;
+         }else{
+
+            }
         }
         else{
             SceneManager.LoadScene("Padre2");
@@ -123,11 +139,16 @@ public class CambioDialogo : MonoBehaviour
         madre++;
         }
         else if(madre==2){
+           if(answ.Respuesta1()){
+               answ.Respuesta2();
         dialogoMadre2.SetActive(false);
         dialogoMadre3.SetActive(true);
         respuestaMadre.SetActive(true);
 
         madre++;
+           }else{
+
+            }
         }
         else{
             SceneManager.LoadScene("Mapa");

@@ -11,7 +11,7 @@ public class RedirMapa : MonoBehaviour
     void Start()
     {
         dad = CambioDialogo.supermercado;
-        dad2 = CambioDialogo.padrecito;
+        dad2 = Papa2.dad2;
     }
 
 

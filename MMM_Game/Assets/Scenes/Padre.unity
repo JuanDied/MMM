@@ -660,7 +660,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: "Hola! Estaba pensando en que podr\xEDamos practicar,\n\n \xBFte gustar\xEDa?\r\n"
+  m_Text: "\xA1Hola! Estaba pensando en que podr\xEDamos practicar,\n\n \xBFte gustar\xEDa?\r\n"
 --- !u!222 &557264231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1107,6 +1107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f6c969271b1842b4e4f318c974f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boton: {fileID: 0}
   algo: {fileID: 0}
   respuestaField: {fileID: 0}
   dialogo1: {fileID: 557264228}

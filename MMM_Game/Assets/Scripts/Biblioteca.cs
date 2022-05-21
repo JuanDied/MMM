@@ -14,7 +14,7 @@ public class Biblioteca : MonoBehaviour
 
     public GameObject Recepcion;
     public GameObject respuestaBiblio;
-
+    public UltimoProblema answ;
     private int biblio = 0;
     // Start is called before the first frame update
     void Start()
@@ -40,11 +40,14 @@ public class Biblioteca : MonoBehaviour
         biblio++;
         }
         else if(biblio==2){
+            if(answ.Respuesta1()){
+                answ.Respuesta2();
         dialogoBiblio2.SetActive(false);
         dialogoBiblio3.SetActive(true);
         respuestaBiblio.SetActive(true);
 
         biblio++;
+            }else{};
         }
         else{
             SceneManager.LoadScene("Resultados");

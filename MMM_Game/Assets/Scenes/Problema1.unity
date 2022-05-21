@@ -1283,7 +1283,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: "Hola! Buenos d\xEDas hijo. Vamos a hacer el                                                                                                
+  m_Text: "\xA1Hola! Buenos d\xEDas hijo. Vamos a hacer el                                                                                                
     \n\npero   nos hacen falta unas cosas, \xBFPodr\xEDas ir a la tienda por favor?\r\n"
 --- !u!222 &1362488991
 CanvasRenderer:
@@ -1463,6 +1463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f6c969271b1842b4e4f318c974f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boton: {fileID: 0}
   algo: {fileID: 0}
   respuestaField: {fileID: 0}
   dialogo1: {fileID: 702274093}

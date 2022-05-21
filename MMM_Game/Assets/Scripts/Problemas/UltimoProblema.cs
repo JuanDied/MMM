@@ -20,7 +20,7 @@ public class UltimoProblema : MonoBehaviour
     private int num6;
     private bool salta;
     public Text respuestaField;
-    
+    public GameObject fallaste;
     private int rCorrecta;
     // Start is called before the first frame update
     void Start()
@@ -43,14 +43,38 @@ public class UltimoProblema : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         if(Input.GetMouseButtonDown(0)){
+                fallaste.SetActive(false);
+            }
     }
 
-    public void Respuesta()
+    public bool Respuesta1()
+    {
+        
+        bool resp = false;
+        rCorrecta = num1*num2+num3+num4+num5+num6;
+        if(salta == true){
+            if(int.Parse(respuestaField.text) == rCorrecta){
+                Debug.Log("noiseee");
+                puntos.AumentarPuntaje();
+                salta = false;
+                resp = true;
+             }else{
+
+                Debug.Log("malooo");
+                puntos.DisminuirPuntaje();
+                resp = false;
+            }
+        
+    }
+    return resp;
+    }
+
+      public void Respuesta2()
     {
         
         
-        rCorrecta = num1*num2+num3*num4+num5*num6;
+        rCorrecta = num1*num2+num3+num4+num5+num6;
         if(salta == true){
             if(int.Parse(respuestaField.text) == rCorrecta){
                 Debug.Log("noiseee");

@@ -14,6 +14,7 @@ public class Cifras : MonoBehaviour
     private int num2;
 
     public Text respuestaField;
+    public GameObject fallaste;
     private bool salta;
     private int rCorrecta;
     // Start is called before the first frame update
@@ -29,25 +30,54 @@ public class Cifras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetMouseButtonDown(0)){
+                fallaste.SetActive(false);
+            }
+    }
+
+    public bool Respuesta1()
+    {
+        bool resp = false;
+        rCorrecta = num1*num2;
+        if(salta == true){
+        if(int.Parse(respuestaField.text) == rCorrecta){
+            Debug.Log("noiseee");
+            
+            salta = false;
+            resp = true;
+        }else{
+            fallaste.SetActive(true);
+            Debug.Log("malooo");
+            
+            resp = false;
+        }
         
     }
 
-    public void Respuesta()
+    return resp;
+    }
+
+
+    public void Respuesta2()
     {
+        
         rCorrecta = num1*num2;
         if(salta == true){
         if(int.Parse(respuestaField.text) == rCorrecta){
             Debug.Log("noiseee");
             puntos.AumentarPuntaje();
             salta = false;
+           
         }else{
-
+            fallaste.SetActive(true);
             Debug.Log("malooo");
             puntos.DisminuirPuntaje();
+         
         }
         
     }
-    }
 
+    
+    }
    
 }
