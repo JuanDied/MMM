@@ -968,6 +968,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164814060}
   m_CullTransparentMesh: 1
+--- !u!1 &1312588293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312588294}
+  m_Layer: 0
+  m_Name: empti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312588294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312588293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2244608, y: 1.0954255, z: -436.9277}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1385476839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,20 +1138,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boton: {fileID: 0}
+  botonIncorrecta1: {fileID: 0}
+  botonIncorrecta2: {fileID: 0}
+  botonIncorrecta3: {fileID: 0}
+  botonCorrecta: {fileID: 0}
   algo: {fileID: 0}
   respuestaField: {fileID: 0}
   dialogo1: {fileID: 557264228}
   dialogo2: {fileID: 1941601952}
   dialogoSuper1: {fileID: 1385476839}
   dialogoSuper2: {fileID: 1385476839}
-  dialogoDepor1: {fileID: 0}
-  dialogoDepor2: {fileID: 0}
-  dialogoDepor3: {fileID: 0}
-  respuesta: {fileID: 0}
-  dialogoMadre1: {fileID: 0}
-  dialogoMadre2: {fileID: 0}
-  dialogoMadre3: {fileID: 0}
-  respuestaMadre: {fileID: 0}
+  dialogoDepor1: {fileID: 1312588293}
+  dialogoDepor2: {fileID: 1312588293}
+  dialogoDepor3: {fileID: 1312588293}
+  respuesta: {fileID: 1312588293}
+  dialogoMadre1: {fileID: 1312588293}
+  dialogoMadre2: {fileID: 1312588293}
+  dialogoMadre3: {fileID: 1312588293}
+  respuestaMadre: {fileID: 1312588293}
+  answ: {fileID: 0}
 --- !u!4 &1614732089
 Transform:
   m_ObjectHideFlags: 0
@@ -1148,6 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0607c695459672e4e8331f55e0d91895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fallaste: {fileID: 1312588293}
   textPuntuacion: {fileID: 1106624068}
 --- !u!1 &1641295093
 GameObject:

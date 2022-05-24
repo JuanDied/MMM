@@ -1060,6 +1060,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6468bacf49f8aae4ca92beb03ef56b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &828275853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828275854}
+  m_Layer: 0
+  m_Name: emti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &828275854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828275853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 410.93106, y: 311.8388, z: -423.46375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &949937868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,20 +1494,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boton: {fileID: 0}
+  botonIncorrecta1: {fileID: 0}
+  botonIncorrecta2: {fileID: 0}
+  botonIncorrecta3: {fileID: 0}
+  botonCorrecta: {fileID: 0}
   algo: {fileID: 0}
   respuestaField: {fileID: 0}
   dialogo1: {fileID: 702274093}
   dialogo2: {fileID: 571963116}
-  dialogoSuper1: {fileID: 0}
-  dialogoSuper2: {fileID: 0}
-  dialogoDepor1: {fileID: 0}
-  dialogoDepor2: {fileID: 0}
-  dialogoDepor3: {fileID: 0}
-  respuesta: {fileID: 0}
-  dialogoMadre1: {fileID: 0}
-  dialogoMadre2: {fileID: 0}
-  dialogoMadre3: {fileID: 0}
-  respuestaMadre: {fileID: 0}
+  dialogoSuper1: {fileID: 828275853}
+  dialogoSuper2: {fileID: 828275853}
+  dialogoDepor1: {fileID: 828275853}
+  dialogoDepor2: {fileID: 828275853}
+  dialogoDepor3: {fileID: 828275853}
+  respuesta: {fileID: 828275853}
+  dialogoMadre1: {fileID: 828275853}
+  dialogoMadre2: {fileID: 828275853}
+  dialogoMadre3: {fileID: 828275853}
+  respuestaMadre: {fileID: 828275853}
+  answ: {fileID: 0}
 --- !u!4 &1600069457
 Transform:
   m_ObjectHideFlags: 0

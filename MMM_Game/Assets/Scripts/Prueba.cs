@@ -17,15 +17,24 @@ public class Prueba : MonoBehaviour
     public int index = 0;
     public string nombre ="";
 
+
     [SerializeField] InputField inputField;
+    [SerializeField] GameObject fallaste;
 
    private void Start() {
-       
+       fallaste.SetActive(false);
        IngresaNombre.SetActive(false);
        Bienvenido.SetActive(true);
        Instrucciones.SetActive(false);
        Seguridad.SetActive(false);
    }
+    private void Update() {
+        if(Input.GetMouseButtonDown(0)){
+                fallaste.SetActive(false);
+            }
+    }
+
+
     public void ChangeUI()
    {
        
@@ -41,8 +50,9 @@ public class Prueba : MonoBehaviour
        else if(index == 1){
            nombre = inputField.text;
         if(nombre.Length < 3  || nombre.Length > 20){
-            bool alert = EditorUtility.DisplayDialog("Escribe tu nombre completo",
-                "Tu nombre debe tener más de 3 letras", "Vale!");
+            // bool alert = EditorUtility.DisplayDialog("Escribe tu nombre completo",
+            //     "Tu nombre debe tener más de 3 letras", "Vale!");
+            fallaste.SetActive(true);
         }
         else{
             IngresaNombre.SetActive(false);
